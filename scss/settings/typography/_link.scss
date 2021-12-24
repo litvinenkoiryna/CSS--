@@ -1,0 +1,27 @@
+.nav__item {
+  list-style: none;
+  padding-left: 12px;
+  .nav__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: $defaultBlack;
+  }
+}
+
+a{
+  cursor: pointer;
+}
+
+.nav__link_after::after{
+  content: "/";
+}
+
+.lang__link{
+  text-decoration: none;
+  color: $defaultWhite;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $defaultBlack;
+  font-size: 20px;
+}
+

@@ -1,0 +1,43 @@
+.header {
+  max-width:1839.9px;
+  min-width: 320px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left:47px;
+  top:9px;
+  margin-top: 107px;
+  .logo {
+    position: absolute;
+    right: -16px;
+    top: -95px;
+  }
+  .logo__img {
+    color: $defaultBlack;
+    font-size: 65px;
+  }
+  .lang{
+    position: absolute;
+    bottom: 61px;
+  }
+  .nav {
+    position: absolute;
+    left:72px;
+    bottom: 61px;
+  }
+  .nav__items{
+    display: flex;
+    flex-direction: row;
+  }
+}
+.logo__link{
+  position: relative;
+  i.fas.fa-caret-left{
+    color: $defaultBlack;
+    position: absolute;
+    right: 26px;
+    bottom: -7px;
+    font-size: 80px;
+  }
+}

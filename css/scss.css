@@ -1,0 +1,189 @@
+.nav__item {
+  list-style: none;
+  padding-left: 12px;
+}
+.nav__item .nav__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+}
+
+a {
+  cursor: pointer;
+}
+
+.nav__link_after::after {
+  content: "/";
+}
+
+.lang__link {
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  font-size: 20px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  max-width: 1839.9px;
+  min-width: 320px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left: 47px;
+  top: 9px;
+  margin-top: 107px;
+}
+.header .logo {
+  position: absolute;
+  right: -16px;
+  top: -95px;
+}
+.header .logo__img {
+  color: #000000;
+  font-size: 65px;
+}
+.header .lang {
+  position: absolute;
+  bottom: 61px;
+}
+.header .nav {
+  position: absolute;
+  left: 72px;
+  bottom: 61px;
+}
+.header .nav__items {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo__link {
+  position: relative;
+}
+.logo__link i.fas.fa-caret-left {
+  color: #000000;
+  position: absolute;
+  right: 26px;
+  bottom: -7px;
+  font-size: 80px;
+}
+
+.who {
+  display: flex;
+  font-size: 36px;
+  margin-top: 45px;
+  margin-left: 36px;
+}
+
+.line {
+  width: 80px;
+  height: 11px;
+  background-color: #000000;
+  margin: 10px 24px 10px 10px;
+}
+
+.wrapper {
+  max-width: 1920px;
+  padding-left: 38px;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rectangle {
+  width: 440px;
+  height: 280px;
+  margin: 19px 16px 19px 12px;
+  background-color: #E6E6E6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle:hover {
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scaleY(-1);
+}
+.rectangle .logotype {
+  padding: 90px 65px;
+}
+.rectangle .logotype:hover {
+  filter: invert(1);
+  transform: scaleY(-1);
+}
+
+.logotype_inst {
+  margin-top: 29px;
+}
+.logotype_wix {
+  margin-top: 36px;
+}
+
+/*# sourceMappingURL=scss.css.map */
